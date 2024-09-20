@@ -117,7 +117,7 @@ public class ShellEmulator extends JFrame implements ActionListener {
     }
 
     public void TailExecuter(String path){
-        if (path.contains(".")){
+        if (!path.contains(".")){
             throw new RuntimeException();
         }
         String oldCurrent = currentDirectory;
@@ -189,6 +189,14 @@ public class ShellEmulator extends JFrame implements ActionListener {
             console.append(file+"\n");
         }
     }
+    private boolean findIn(Set<String> files,String name){
+        for (String file : files) {
+            if(file.contains(name)){
+                return true;
+            }
+        }
+        return false;
+    }
 
     private void changeDirectory(String dir) {
         System.out.println(dir);
@@ -201,7 +209,11 @@ public class ShellEmulator extends JFrame implements ActionListener {
             }
             System.out.println(currentDirectory);
         } else {
-            currentDirectory = currentDirectory  + dir+"/";
+            if(findIn(listDirectory(),dir)){
+                currentDirectory = currentDirectory  + dir+"/";
+            }else{
+                console.append("error wrong path\n");
+            }
         }
     }
 
