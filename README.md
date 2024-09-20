@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/87321da3-2ff8-4056-aafe-b8f949b2c25d)# ShellEmulator
+# ShellEmulator
 # Привет! :wave:  
 ### Предоставляю домашнюю работу №1 по конфигурационному управлению. 
 **Задание**  
@@ -31,11 +31,11 @@ ____
 **Для запуска системы нужно** 
 *Запустить файл starter.bat*  
 ____  
-**Пример использования** 
+**Пример использования**  
 ![image](https://github.com/user-attachments/assets/95f1ef80-6191-48d4-8b41-c0f3a264f772)  
-![image](https://github.com/user-attachments/assets/b7efd068-7313-4b86-904b-55e32c8294b3)
+![image](https://github.com/user-attachments/assets/b7efd068-7313-4b86-904b-55e32c8294b3)  
 ____  
-**Результаты прогона тестов** 
+**Результаты прогона тестов**  
 ![image](https://github.com/user-attachments/assets/013465ef-6600-4254-b496-23fb5271e7ce)  
 
 
