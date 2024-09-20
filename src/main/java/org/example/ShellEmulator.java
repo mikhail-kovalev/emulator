@@ -21,6 +21,11 @@ public class ShellEmulator extends JFrame implements ActionListener {
     private ZipFile vfs;
     private String startScript;
 
+
+    public JTextArea getConsole() {
+        return console;
+    }
+
     public ShellEmulator(String username, String vfsPath, String startScript) throws FileNotFoundException {
         super("Shell Emulator");
         vfsPath=ResoursePath+vfsPath+".zip";
@@ -73,7 +78,7 @@ public class ShellEmulator extends JFrame implements ActionListener {
         printPrompt();
     }
 
-    private void executeCommand(String command) {
+    public void executeCommand(String command) {
         String[] parts = command.split(" ");
         String cmd = parts[0];
         switch (cmd) {
@@ -112,6 +117,9 @@ public class ShellEmulator extends JFrame implements ActionListener {
     }
 
     public void TailExecuter(String path){
+        if (path.contains(".")){
+            throw new RuntimeException();
+        }
         String oldCurrent = currentDirectory;
         if(path.replace(currentDirectory.substring(1),"").contains("/")){
             currentDirectory=path.substring(0,path.lastIndexOf("/"));
