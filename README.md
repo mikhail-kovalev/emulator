@@ -8,5 +8,5 @@
 
 Тест 4:  
 
-         1) Команда для запуска ассемблера: python3 assembler.py program.asm program.bin program.log
-         2) Команда для запуска интерпретатора: python3 interpreter.py program.bin result.yaml 0 10
+ 1)         Команда для запуска ассемблера: python3 assembler.py program.asm program.bin program.log
+ 2)         Команда для запуска интерпретатора: python3 interpreter.py program.bin result.yaml 0 10
