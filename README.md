@@ -1,19 +1,4 @@
-config.csv — это файл конфигурации, который используется вашим эмулятором командной строки для хранения настроек и параметров, необходимых для его работы. Он содержит данные в формате CSV (Comma-Separated Values), что позволяет удобно хранить и считывать информацию.
-
-log.csv — это файл журнала, использовался для записи действий пользователя в эмуляторе командной строки. Он хранит информацию о выполненных командах, включая пользователя, команду и временную метку.
-
-
-shell_emulator.py (основной файл эмулятора)
-shell_emulator_gui.py (файл GUI)
-Fs.zip (ZIP-файл с файловой системой)
-
-
-Запуск GUI 
-Откройте терминал и перейдите в директорию, где находятся ваши файлы, затем выполните команду:
-python3 shell_emulator_gui.py
-
-Запуск Тестов
-Откройте терминал и перейдите в директорию, где находятся ваши файлы, затем выполните команду:
-python3 -m unittest test_shell_emulator.py
-
-
+Тест 2: python3 dependency_visualizer.py --path-to-visualizer C:\Users\kirin\AppData\Roaming\npm\mmdc.cmd --package-name pandas --output-file pandas_dependencies.png --max-depth 3
+Тест 3: Get-Content input.json | python3 config_translator.py output.txt
+Тест 4:  1) Команда для запуска ассемблера: python3 assembler.py program.asm program.bin program.log
+         2) Команда для запуска интерпретатора: python3 interpreter.py program.bin result.yaml 0 10
