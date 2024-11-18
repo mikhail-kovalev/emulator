@@ -1,0 +1,95 @@
+- A: 36
+  B: 100
+  C: 0
+  bytes:
+  - '0x24'
+  - '0x64'
+  - '0x00'
+  - '0x00'
+  - '0x00'
+  instruction: LOAD_CONST
+- A: 36
+  B: 150
+  C: 1
+  bytes:
+  - '0x24'
+  - '0x96'
+  - '0x00'
+  - '0x00'
+  - '0x01'
+  instruction: LOAD_CONST
+- A: 36
+  B: 200
+  C: 2
+  bytes:
+  - '0x24'
+  - '0xC8'
+  - '0x00'
+  - '0x00'
+  - '0x02'
+  instruction: LOAD_CONST
+- A: 36
+  B: 250
+  C: 3
+  bytes:
+  - '0x24'
+  - '0xFA'
+  - '0x00'
+  - '0x00'
+  - '0x03'
+  instruction: LOAD_CONST
+- A: 36
+  B: 50
+  C: 4
+  bytes:
+  - '0x24'
+  - '0x32'
+  - '0x00'
+  - '0x00'
+  - '0x04'
+  instruction: LOAD_CONST
+- A: 186
+  B: 0
+  C: 5
+  bytes:
+  - '0xBA'
+  - '0x00'
+  - '0x00'
+  - '0x05'
+  instruction: BITREVERSE
+- A: 186
+  B: 1
+  C: 6
+  bytes:
+  - '0xBA'
+  - '0x01'
+  - '0x00'
+  - '0x06'
+  instruction: BITREVERSE
+- A: 186
+  B: 2
+  C: 7
+  bytes:
+  - '0xBA'
+  - '0x02'
+  - '0x00'
+  - '0x07'
+  instruction: BITREVERSE
+- A: 186
+  B: 3
+  C: 8
+  bytes:
+  - '0xBA'
+  - '0x03'
+  - '0x00'
+  - '0x08'
+  instruction: BITREVERSE
+- A: 186
+  B: 4
+  C: 9
+  bytes:
+  - '0xBA'
+  - '0x04'
+  - '0x00'
+  - '0x09'
+  instruction: BITREVERSE

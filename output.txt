@@ -1,0 +1,15 @@
+|| || 1 line comment
+multi_comment = list([[Multiple line
+comment]], [[=cut]])
+const num1 = 10
+const num2 = 20
+const str1 = [[Hello]]
+const str2 = [[World]]
+simple_value = 42
+string_value = [[[[Example line]]]]
+array_value = list(1, 2, 3, 4, 5)
+expression result = 30
+expression_subtraction = [[${- num2 num1}]]
+expression_multiplication = [[${* num1 2}]]
+concat_example = [[${concat str1 str2}]]
+ord_example = [[${ord str1}]]
